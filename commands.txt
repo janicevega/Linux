@@ -1,0 +1,33 @@
+-- go back one level
+cd ..
+
+-- list the content of a folder
+ls
+ls -la
+
+-- clear the screen
+clear
+
+-create a folder
+mkdir foldername
+
+-- remove or delete a folder
+rm -rf foldername
+
+-- create a file
+touch filename
+
+-- remove or delete a file
+rm filename
+
+-- get the absolute path
+pwd
+
+-- copy a file from one directory to another directory
+cp ./filename ./otherfilename
+
+-- move a file from one directory to another directory
+mv ./filename ./otherfilename
+
+-- see the contents of a file
+cat filename
