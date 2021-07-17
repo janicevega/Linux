@@ -31,3 +31,18 @@ mv ./filename ./otherfilename
 
 -- see the contents of a file
 cat filename
+
+-----------------------------------------------------------------------------------------------------------
+			Git commands
+-- enter username and email
+$ git config --global user.name "janicevega"
+$ git config --global user.email "janicevega678@gmail.com"
+
+--initialize
+$ git init
+
+git clone address
+git status
+git add filename
+git commit -m "whatever you want"
+git push
